@@ -30,10 +30,10 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  rgbLedWrite(RGB_BUILTIN, 0, 64, 0);  // turn the LED on (HIGH is the voltage level)
-  delay(3000);                      // wait for a second
-  rgbLedWrite(RGB_BUILTIN, 64, 0, 0);   // turn the LED off by making the voltage LOW
+  rgbLedWrite(RGB_BUILTIN, 0, 64, 0);
+  delay(3000);                  
+  rgbLedWrite(RGB_BUILTIN, 64, 0, 0);
   delay(4000);
-  rgbLedWrite(RGB_BUILTIN, 64, 64, 0);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+  rgbLedWrite(RGB_BUILTIN, 64, 64, 0);  
+  delay(1000);              
 }
